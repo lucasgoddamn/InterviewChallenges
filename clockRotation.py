@@ -3,5 +3,4 @@ def rotation (hours, minutes):
     dm = 30 * (minutes / 5)
     return abs(dh - dm)
 
-
 print(rotation(11, 45))
